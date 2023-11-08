@@ -12,74 +12,77 @@ body{
 }
 .car1{
     background-image: url("/assets/images/home/Carousel/Carousel1.jpg");
-    height:931px;
+    height:100vh;
     background-repeat: no-repeat;
-    background-size: 1920px 931px;
+    background-size: cover;
     background-attachment: scroll;
-    max-width: 1920px;
+    background-position: center;
     font-weight: bold;
     
 }
 body::-webkit-scrollbar {
     display: none;
 }
-.car1 .deliv{
-    height:5px;
-    text-align:center;
-    color:#F9EDED;
-    font-size:16px;
-    padding-top:10px;
-}
-.car1 .nav{
+
+ .nav{
     background:#F26693;
-    height:118px;
+    height:13vh;
     width:100%;
     display:inline-block;
-    margin-top:20px;
+
 }
-.car1 .nav img{
+.nav img{
     width:180px;
     margin-left:auto;
     margin-right:auto;
     display:block;
-    margin-top:-90px;
+    margin-top:-80px;
 }
-.car1 .nav .navlist{
+ .nav .navlist{
     padding-top:30px;
     
 }
-.car1 .nav .navlist li{
+ .nav .navlist li{
     display:inline;
-    margin-left:100px;
+    margin-left:50px;
 }
-.car1 .nav .navlist li a{
+ .nav .navlist li a{
     text-decoration:none;
     color:#FFFFFF;
     font-size:17px;
 }
-.car1 .nav .listright{
+ .nav .listright{
     float:right;
-    margin-top:-180px;
-}
-.car1 .nav .listright ul{
-    display:inline-block;
+    display:inline;
+    margin-top:-200px;
     
 }
-.car1 .nav .listright ul li{
-    margin-right:80px;
-    display:inline;    
+ .nav .listright ul{
+    display:inline-block;
+    list-style: none;
+    
 }
-.car1 .nav .listright ul li a{
+ .nav .listright ul li{
+    margin-right:80px;
+    display:inline-block;    
+}
+.nav .listright ul li a{
     text-decoration: none;
     color:#FFFFFF
 }
-.car1 .nav .listright ul li input{
+.nav .listright ul li input{
     background-color: rgb(217, 217, 217, 0.6);
     color:black;
     border:none;
     width:200px;
-    height:24px;
+    height:30px;
+    font-size: 20px;
+    font-weight:bold;
 }
+ .nav .listright .svg1{
+    display:block;
+}
+
 .boxslide{
     background-color: rgb(203, 156, 78, 0.6);
     width:20%;
@@ -125,13 +128,11 @@ body::-webkit-scrollbar {
 }
 .car2{
     background:#FAA2C9;
-    height:931px;
-    max-width:1920px;
+    height:100vh;
 }
 .car2 .car2container{
     width:800px;
     margin:0 auto;
-    padding-top:80px;
 }
 .car2 .car2container .car2title{
     font-size: 50px;
@@ -140,7 +141,7 @@ body::-webkit-scrollbar {
 }
 .car2 .car2container .car2bodytext{
     font-size:25px;
-    margin-top:50px;
+
     font-weight: bolder;
     text-align:center;
 }
@@ -148,7 +149,6 @@ body::-webkit-scrollbar {
     height:500px;
 }
 .car2 .car2gallery {
-    padding-top:1%;
     height:500px;
 }
 .car2 .car2gallery .img{
@@ -172,6 +172,96 @@ body::-webkit-scrollbar {
     margin:50px;
     margin-right:5px;
 }
+.prodNames{
+    display:flex;
+}
+.prodname {
+    width:300px;
+    display:inline-block;
+    text-align: center;
+ 
+    font-size:25px;
+}
+.car2gallery .prodNames .prod2{
+    font-size:20px;
+    margin-left:100px;
+}
+.prod1 {
+    width:300px;
+    display:inline-block;
+    text-align: center;
+
+    margin-left:10px;
+}
+.prod5 {
+    width:300px;
+    display:inline-block;
+    text-align: center;
+    margin-right:5px;
+}
+/* 
+
+
+
+CAR 3 GALLERY
+
+
+
+
+*/
+.car3{
+    padding-top:100px;
+    background:#EDBEC7;
+    height:931px;
+}
+.car3 .car2container3{
+    width:800px;
+    margin:0 auto;
+    padding-top:80px;
+}
+.car3 .car3container .car3title {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align:center;
+}
+.car3 .car3container .car3text{
+    font-size:25px;
+    margin-top:50px;
+    font-weight: bolder;
+    text-align:center;
+}
+
+.car3 .car3container .car3gallery{
+    height:500px;
+}
+.car3 .car3gallery {
+    height:500px;
+    margin-left:140px;
+}
+.car3 .car3gallery .img{
+    width:200px;
+    height:300px;
+    display:inline-block;
+    margin:50px;
+    text-align: center;
+}
+.car3 .car3gallery .img1{
+    width:200px;
+    height:300px;
+    display:inline-block;
+    margin:50px;
+    margin-left:10px;
+}
+.car3 .car3gallery .img5{
+    width:200px;
+    height:300px;
+    display:inline-block;
+    margin:50px;
+    margin-right:5px;
+}
+.prodNames{
+    display:flex;
+}
 .prodname {
     width:300px;
     display:inline-block;
@@ -192,13 +282,73 @@ body::-webkit-scrollbar {
     text-align: center;
     margin-right:5px;
 }
-.car3{
-    background:#EDBEC7;
+
+/* 
+
+
+
+CAR 4 GALLERY
+
+
+
+
+*/
+.car4{
+    padding-top:50px;
+    background:#F485AD;
     height:931px;
-    max-width: 1920px;
 }
-.car3 .car2container3{
+.car4 .car2container3{
     width:800px;
     margin:0 auto;
     padding-top:80px;
+}
+.car4 .car4container .car4title {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align:center;
+}
+.car4 .car4container .car4text{
+    font-size:25px;
+    margin-top:50px;
+    font-weight: bolder;
+    text-align:center;
+}
+
+.car3 .car4container .car4gallery{
+    height:500px;
+}
+.car4 .car4gallery {
+    height:500px;
+    margin-left:100px;
+    margin-top:150px;
+}
+.car4 .car4gallery .img{
+    width:200px;
+    height:300px;
+    display:inline-block;
+    margin-left:100px;
+    margin-right:100px;
+    text-align: center;
+}
+.car4 .car4gallery .img1{
+    width:200px;
+    height:300px;
+    display:inline-block;
+
+}
+
+.prodname {
+    width:300px;
+    display:inline-block;
+    text-align: center;
+    font-size:25px;
+    margin-left:100px;
+    margin-right:100px;
+}
+.prod2 {
+    margin-left:5px;
+}
+.prod3 {
+    margin-left: 2px;
 }
