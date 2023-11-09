@@ -128,7 +128,7 @@ body::-webkit-scrollbar {
 }
 .car2{
     background:#FAA2C9;
-    height:100vh;
+    height:110vh;
 }
 .car2 .car2container{
     width:800px;
@@ -259,15 +259,13 @@ CAR 3 GALLERY
     margin:50px;
     margin-right:5px;
 }
-.prodNames{
+.car3  .car3gallery .prodNames{
     display:flex;
 }
-.prodname {
+.car3  .car3gallery .prodNames .prodname {
     width:300px;
-    display:inline-block;
-    text-align: center;
- 
-    font-size:25px;
+    font-size:23px;
+    margin-left:-60px;
 }
 .prod1 {
     width:300px;
