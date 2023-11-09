@@ -352,3 +352,58 @@ CAR 4 GALLERY
 .prod3 {
     margin-left: 2px;
 }
+.footer {
+    background:#FAA2C9;
+    height:75vh;
+}
+.footercontents{
+    margin-left:100px;
+}
+.footer .img {
+    margin-left:50px;
+    padding-top:40px;
+}
+.footer .footerlist{
+    margin-top:20px;
+}
+.footer .footerlist .list{
+    display:inline-block;
+}
+.footer .footerlist .list ul li {
+    list-style-type: none;
+    margin:10px;
+}
+.footer .footerlist .list ul li a {
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+}
+.footer .footerlist .list1{
+
+}
+.footer .footerlist .list2{
+    float:left;
+}
+.footer .footerlist .list3{
+    float:right;
+    margin-right:200px;
+    margin-top:-200px;
+}
+.footer .footerlist .list3 ul li .a1{
+    font-weight:bolder;
+}
+.footer .footerlist .list3 ul li{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.footer .footerline{
+    border-top:1px solid black;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:20px;
+}
+.footer .copyright{
+    margin-left:100px;
+    margin-top:20px;
+    
+}
