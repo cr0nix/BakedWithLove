@@ -54,7 +54,8 @@ body::-webkit-scrollbar {
  .nav .listright{
     float:right;
     display:inline;
-    margin-top:-200px;
+    margin-top:-170px;
+
     
 }
  .nav .listright ul{
@@ -68,7 +69,7 @@ body::-webkit-scrollbar {
 }
 .nav .listright ul li a{
     text-decoration: none;
-    color:#FFFFFF
+    color:#FFFFFF;
 }
 .nav .listright ul li input{
     background-color: rgb(217, 217, 217, 0.6);
